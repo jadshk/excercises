@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Table HTML Exercise</title>
+<style type="text/css">
+.studentInfo {
+	width: 700px;
+	border-collapse: collapse;
+}
+
+.studentInfo td {
+	border: 1px solid black;
+}
+
+.studentInfo th {
+	border: 1px solid black;
+}
+
+.studentInfo tr:nth-child(even) {
+	background-color: #E4FFB7;
+}
+
+.studentInfo tr:nth-child(odd) {
+	background-color: #EFFFD2;
+}
+
+.header {
+	text-align: center;
+	font-weight: bolder;
+	background-color: #80B327;
+	color: white;
+}
+</style>
+</head>
+<body>
+	<table class="studentInfo">
+		<tbody>
+			<tr>
+				<th class="header" colspan="6">Find your row, have fun
+					filling it in! Don't forget to check-in!!</th>
+			</tr>
+			<tr>
+				<th>Roll Call #</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Business Name</th>
+				<th>Business Description</th>
+				<th>Logo</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Fill me in</td>
+				<td>Fill me in</td>
+				<td>Fill me in</td>
+				<td>Fill me in</td>
+				<td>Fill me in</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
